@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1cae4;
+    margin: 10;
+    padding: 5;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    background-color: rgb(205, 186, 241);
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: rgb(138, 98, 170);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(138, 98, 170);
+    justify-content:center;
+    border-radius: 25px;;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ol {
+    list-style-type: decimal-leading-zero; /* Adds leading zero to single-digit numbers (01, 02, etc.) */
+    padding-left: 20px; /* Adds spacing before the numbers */
+    margin: 0 auto; /* Centers the list */
+    font-family: 'Arial', sans-serif; /* Modern and clean font */
+    font-size: 16px; /* Adjusts font size */
+  }
+
+  ol li {
+    margin-bottom: 10px; /* Adds space between list items */
+    color: #333; /* Dark gray text for readability */
+  }
+
+  ol li::marker {
+    color: rgb(138, 98, 170); /* Makes the numbers light purple for a pop of color */
+    font-weight: bold; /* Highlights the numbers */
+  }
+
+
